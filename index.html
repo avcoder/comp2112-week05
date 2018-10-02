@@ -138,7 +138,7 @@
         <!--.wrap = container (width: 90%) -->
         <div class="wrap aligncenter">
           <h1>
-            <strong>keypress detection, .reduce, forms, ES6 destructuring, default params</strong>
+            <strong>keypress, .reduce, forms, destructuring, default params</strong>
           </h1>
           <p class="text-intro">Week 5
             <br/>COMP 2112
@@ -186,6 +186,35 @@
         <!-- .end .wrap -->
       </section>
 
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-100 aligncenter">
+
+          <div class="grid vertical-align">
+            <div class="column">
+              <p data-height="500" data-theme-id="0" data-slug-hash="JmYqye" data-default-tab="js,result" data-user="avcoder" data-pen-title="playing cards 2 w localStorage"
+                class="codepen">See the Pen
+                <a href="https://codepen.io/avcoder/pen/JmYqye/">playing cards 2 w localStorage</a> by A.V. (
+                <a href="https://codepen.io/avcoder">@avcoder</a>) on
+                <a href="https://codepen.io">CodePen</a>.</p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <div class="column">
+
+              <h3>localStorage.getItem()</h3>
+              <ul class="flexblock reasons">
+                <li class="text-intro">If localStorage was used with the key of 'cards', then display that</li>
+                <li class="text-intro">Let's set localStorage to our new hand everytime there's a change in our hand</li>
+              </ul>
+            </div>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
       <section class="">
         <!--.wrap = container (width: 90%) -->
         <div class="wrap size-100 aligncenter">
@@ -215,53 +244,38 @@ console.log('bye');
       </section>
 
 
+
       <section class="">
         <!--.wrap = container (width: 90%) -->
         <div class="wrap size-100 aligncenter">
-          <img src="./static/images/websvr_get.png" alt="how internet works" style="height: 70vh">
-          <!-- .end .bg-white shadow -->
+          <h3>
+            Goto:
+            <a href="http://keycode.info/">Keycode.info</a>
+          </h3>
+          <img src="./static/images/keycode.PNG" alt="keycode.info">
+        </div>
+        </div>
+        <!-- .end .bg-white shadow -->
         </div>
         <!-- .end .wrap -->
       </section>
 
-      <section class="aligncenter bg-primary">
-        <div class="grid vertical-align">
-          <div class="column" style="width: 70%">
-            <h4>Tim Horton's Async Analogy
-            </h4>
-            <a href="https://github.com/avcoder/comp2068-week02/blob/master/timhortons.md">
-              <img src="./static/images/timHortonsAnalogy.PNG" alt="Tim Hortons Analogy to asynchronous callbacks in JS">
-            </a>
-          </div>
-          <div class="column">
-            <img src="./static/images/tim1.PNG" class="draggable" style="width: 100%" alt="coffee.log(double double)">
-            <br>
-            <img src="./static/images/tim2.PNG" class="draggable" style="width: 100%" alt="console(panini)">
-            <br>
-            <img src="./static/images/tim3.PNG" class="draggable" style="width: 100%" alt="coffee.log(black)">
-            <br>
-            <a href="./static/images/tickets.jpg">ticket holder image</a>
-          </div>
-        </div>
-        <!-- .end .wrap -->
-      </section>
 
-      <section class="bg-primary">
+
+      <section class="bg-apple">
         <div class="wrap">
           <div class="content-left">
             <h3>
-              What is the event loop?
+              <a href="https://codepen.io/avcoder/pen/dgYaNr?editors=0010">In class exercise 5</a>
             </h3>
-            <p>
-              <a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ#t=10m48s">Watch from 9:00 to to 15:11</a>
-            </p>
+
 
           </div>
           <!-- end .content-left -->
           <div class="content-left">
             <!-- <div class="embed"> = Responsive -->
             <div class="embed">
-              <div data-youtube data-youtube-id="8aGhZQkoFbQ" data-autoplay data-no-controls></div>
+              <div data-youtube data-youtube-id="NbV2sTa1JSI" data-autoplay data-no-controls></div>
             </div>
             <!-- end .embed -->
           </div>
@@ -270,147 +284,14 @@ console.log('bye');
         <!-- .end .wrap -->
       </section>
 
-      <section class="bg-primary">
-        <div class="wrap aligncenter">
-          <pre><code><h3>
-console.log('double double');
-
-fetch('https://api.github.com/users/avcoder')
-  .then(res => res.json())
-  .then(data => console.log(data));
-
-console.log('black');</h3>
-</code></pre>
-          <p>view debugger in action
-            <a href="./fetch.html">fetch.html</a> using an extension called "Debugger for Chrome"
-          </p>
-          <!-- end .content-left -->
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-
-      <section class="bg-apple">
-        <!--.wrap = container (width: 90%) -->
-        <div class="wrap size-100 aligncenter">
-          <h3>
-            <a href="https://github.com/avcoder/weekOf-Nov22/blob/master/01-ajax%20history/historyAjax.html">History of Ajax</a>
-          </h3>
-          <p>From XMLHttpRequest, to jQuery's methods, to fetch, to async/await</p>
-        </div>
-        </div>
-        <!-- .end .bg-white shadow -->
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-
-      <section class="">
-        <!--.wrap = container (width: 90%) -->
-        <div class="wrap size-100 aligncenter">
-
-          <div class="grid vertical-align">
-            <div class="column">
-              <pre><code><h4>
-// set
-localStorage.setItem('myCat', 'Whiskers')
-
-// get
-localStorage.getItem('myCat')
-
-// remove
-localStorage.removeItem('myCat')
-
-// clear
-localStorage.clear();
-  </h4></code></pre>
-
-            </div>
-            <div class="column">
-
-              <h3>localStorage</h3>
-              <p>Check your browser's application storage tab to view localstorage</p>
-              <p>Example: instead of 'Whiskers' try storing an array of objects</p>
-            </div>
-          </div>
-          <!-- .end .bg-white shadow -->
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-
-      <section class="bg-apple">
-        <!--.wrap = container (width: 90%) -->
-        <div class="wrap size-100 aligncenter">
-
-          <div class="grid vertical-align">
-            <div class="column">
-              <p data-height="500" data-theme-id="0" data-slug-hash="gdVMrV" data-default-tab="js" data-user="avcoder" data-pen-title=".filter"
-                class="codepen">See the Pen
-                <a href="https://codepen.io/avcoder/pen/gdVMrV/">.filter</a> by A.V. (
-                <a href="https://codepen.io/avcoder">@avcoder</a>) on
-                <a href="https://codepen.io">CodePen</a>.</p>
-              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-            </div>
-            <div class="column">
-
-              <h3>.filter</h3>
-            </div>
-          </div>
-          <!-- .end .bg-white shadow -->
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-      <section class="bg-apple">
-        <!--.wrap = container (width: 90%) -->
-        <div class="wrap size-100 aligncenter">
-          <h3>.includes</h3>
-          <img src="./static/images/streeetnames.PNG" alt="array of streetnames">
-          <h4>Run Debugger for Chrome than inspect devtools</h4>
-          <p>
-            <a href="./de.html">de.html</a>
-          </p>
-        </div>
-        </div>
-        <!-- .end .bg-white shadow -->
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
-
-      <section class="bg-apple">
-        <!--.wrap = container (width: 90%) -->
-        <div class="wrap size-100 aligncenter">
-
-          <div class="grid vertical-align">
-            <div class="column">
-              <p data-height="500" data-theme-id="0" data-slug-hash="GXVybO" data-default-tab="js,result" data-user="avcoder" data-pen-title="playing cards"
-                class="codepen">See the Pen
-                <a href="https://codepen.io/avcoder/pen/GXVybO/">playing cards</a> by A.V. (
-                <a href="https://codepen.io/avcoder">@avcoder</a>) on
-                <a href="https://codepen.io">CodePen</a>.</p>
-              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-            </div>
-            <div class="column">
-
-              <h3>In-class exercise 4</h3>
-            </div>
-          </div>
-          <!-- .end .bg-white shadow -->
-        </div>
-        <!-- .end .wrap -->
-      </section>
-
 
       <section class="bg-apple">
         <!--.wrap = container (width: 90%) -->
         <div class="wrap size-50 aligncenter">
-          <h3>Lab 4</h3>
-          <p class="text-intro">Complete 1a) 1b) 1c) 2a) of Assignment 1
-            <br>+
-            <br> use localStorage to set initial set of fetched emails such that if I look at Chrome's application tab, I can
-            see your JSON.stringified data. </p>
+          <h3>Lab 5</h3>
+          <p class="text-intro">Complete 3a) 3b) of Assignment 1
+          </p>
+
           <!-- .end .bg-white shadow -->
         </div>
         <!-- .end .wrap -->

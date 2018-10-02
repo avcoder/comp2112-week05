@@ -1,0 +1,11 @@
+String methods
+
+.startsWith()
+.endsWith()
+.repeat()
+
+Array.find()
+.findIndex()
+.some()
+.every()
+
